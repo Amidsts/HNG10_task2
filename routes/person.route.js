@@ -96,9 +96,7 @@ router.delete("/:user_id", async (req, res) => {
 
         if (!user) throw new Error("This user does not exist")
 
-        user.deleteOne();
-
-        await user.save()
+        await person.deleteOne({ _id: req.params.user_id })
 
         res.status(200).json({
             data: "This user has been deleted successfully"
