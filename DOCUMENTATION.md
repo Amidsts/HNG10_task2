@@ -84,7 +84,7 @@
 
 ### Locally
 
-    - Clone the repository: git clone  
+    - Clone the repository: git clone [source_code](https://github.com/Amidsts/HNG10_task2.git)
 
     - Install dependencies: npm install 
 
